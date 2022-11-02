@@ -1,0 +1,152 @@
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+.container {
+height: 1000px;
+position: relative;
+border: 3px solid green;
+}
+.center {
+  padding: 70px 10;
+  text-align: center;
+}
+.button {
+background-color: #4CAF50; 
+}
+
+.blue-button {
+background: #25A6E1;
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1',
+endColorstr='#188BC0', GradientType=0);
+padding: 3px 5px;
+color: #fff;
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 12px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 4px;
+border: 1px solid #1A87B9
+}
+
+.red-button {
+background: #CD5C5C;
+padding: 3px 5px;
+color: #fff;
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 12px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 4px;
+border: 1px solid #CD5C5C
+}
+
+.form-group {
+  margin-bottom: form-group-margin-bottom;
+}
+
+
+.button1 {
+	background: #fd7e14;;
+	padding: 10px 15px;
+	color: #34495e;
+	font-weight: bolder;
+	text-transaform: uppercase;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+	margin-top: 25px;
+	text-decoration: none;
+	transition:0.4s
+	}
+	
+.button1:hover{
+	
+		background: #34495e;
+		color: #fff;
+	
+}
+.container1{
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+
+/* .container h1{
+	
+	color:#fff;
+	font-size:36px;
+	margin-bottom:40px;
+}
+ */
+.popup{
+		background: rgba(0, 0, 0, 0.6);
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		display:none;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	
+}
+.popup-content {
+	background: #fff;
+	width: 800px;
+	height: 250px;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+} 
+
+.input{
+	
+	margin: 20px auto;
+	display: block;
+	width:80%;
+	padding:8px;
+	border:1px solid gray;
+}
+
+.close{
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	background:#fff;
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+	cursor:pointer;
+	
+}
+
+.img{
+	
+	height:40px;
+	width:40px;
+	float:left;
+	margin-left:50px;
+	margin-top:5px;
+}
+.img1{
+	
+	
+	height:100px;
+	width:100px;
+	float:left;
+	margin-left:50px;
+	margin-top:5px; 
+
+	
+}
